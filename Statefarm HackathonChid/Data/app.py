@@ -14,7 +14,7 @@ app = Flask(__name__)
 last_score = None
 change = None 
 
-model = joblib.load("/Users/main/Desktop/Statefarm Hackathon/Data/driver_xgb_model.pkl")
+model = joblib.load("./driver_xgb_model.pkl")
 
 # Sample data for demonstration purposes
 sample_API_data = {
